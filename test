@@ -1,0 +1,60 @@
+<div style="padding: 20px 20px;width:90%">
+<p>&nbsp;</p>
+<table style=" width: 90%; ">
+    <tbody>
+    <tr>
+        <td style="width: 50%;">
+            {logo}
+        </td>
+    </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+
+<div style="padding: 5px 25px; font-family: arial, sans-serif; font-size: 15px;width:90%">
+    <p style="text-align: center; letter-spacing: 2px;"><b>KARTA MELDUNKOWA / REGISTRATION CARD</b></p>
+    <p style="text-align: justify;font-size: 13px; letter-spacing: 2px;">Apartament nr / Apartment no.: {numer_pokoju}</p>
+    <p style="text-align: justify;font-size: 13px; letter-spacing: 2px;">Imię i Nazwisko / Name, Surname: {nazwa}</p>
+    <p style="text-align: justify;font-size: 13px; letter-spacing: 2px;">Przyjazd / Arrival : {data_przyjazdu}</p>
+    <p style="text-align: justify;font-size: 13px; letter-spacing: 2px;">Wyjazd / Departure : {data_wyjazdu}</p>
+    <p style="text-align: justify;font-size: 13px; letter-spacing: 2px;">Data urodzenia / Date of birth</p>
+    <p style="text-align: justify;font-size: 13px; letter-spacing: 2px;">Nr dowodu osobistego lub paszportu /
+        ID or Passport Number : {dokument_tozsamosci_numer}</p>
+
+</div>
+<div style="padding: 5px 25px; font-family: arial, sans-serif; font-size: 15px;width:90%">
+    <p style="text-align: justify; letter-spacing: 2px;"><b>ADRES PRYWATNY/ PRIVATE ADDRESS</b></p>
+    <p style="text-align: justify;font-size: 13px; letter-spacing: 2px;">Ulica / Street : {adres}</p>
+    <p style="text-align: justify;font-size: 13px; letter-spacing: 2px;">Kod Pocztowy / Post Code : {kod_pocztowy}</p>
+    <p style="text-align: justify;font-size: 13px; letter-spacing: 2px;">Kraj / Country : {obywatelstwo}</p>
+    <p style="text-align: justify;font-size: 13px; letter-spacing: 2px;">Telefon / Phone number {numer_telefonu}</p>
+    <p style="text-align: justify;font-size: 13px; letter-spacing: 2px;">Adres Email / Email Address {adres_email}</p>
+    <p style="text-align: justify;font-size: 13px; letter-spacing: 2px;">Numer Rejestracyjny Samochodu /
+        Car Registration Number</p>
+</div>
+
+<div style="padding: 5px 5px; font-family: arial, sans-serif; font-size: 8px;width:100%">
+    <p style="text-align: justify;font-size: 10px;"> <b> Zobowiązuję się, że w przypadku jakiegokolwiek incydentu, urazu oraz zgubienia lub zniszczenia mienia podczas pobytu na terenie Hotel Royal Modlin poinformuję przed wyjazdem kierownictwo. Wszelkie nierozstrzygnięte spory wynikające z powyższych ustaleń reguluje Kodeks Cywilny. </b>I agree that in the event of any incident or injury during my stay at the Hotel Royal Modlin or my property being lost or damaged I will notify management of the Residence prior to my departure. Unsolved matters will be regulated by the polish law. Podpisując kartę meldunkową akceptuję regulamin obiektu. By signing the registration card I do accept the rules and regulations of the hotel. <b>Zobowiązuję się do oddania klucza karty, która jest własnością Hotel Royal Modlin. W przypadku zagubienia lub uszkodzenia, mogą zostać obciążony/na kwotą 70 PLN za jeden klucz. </b>I oblige to return the key card which is the property of Hotel Royal Modlin. In case of losing I can be charged with the amount of 70 PLN for one key card. <b>Jeśli pożyczona, zobowiązuję się do oddania ładowarki telefonicznej, która jest własnością Hotel Royal Modlin. W przypadku zagubienia lub uszkodzenia, mogą zostać obciążony/na kwotą 50 PLN za ładowarkę. </b>If borrowed, I oblige to return the moblie phone charger which is the property of Hotel Royal Modlin. In case of losing I can be charged with the amount of 50 PLN for one charger. 
+<b>Upoważniam Hotel Royal Modlin do obciążenia mojej karty kredytowej za wykorzystane, a nie opłacone w momencie wyjazdu usługi hotelowe oraz za wyrządzone szkody po uprzednim poinformowaniu mnie o ich zaistnieniu i wysokości. </b> Hereby I authorise Hotel Royal Modlin to charge my credit card for hotel services which have been used but not paid upon check-out as well as for caused damage, after being informed of the damage kind and its value. <b> Goście hotelu mogą palić w wyznaczonych do tego miejscach. W trosce o komfort gości niepalących, za palenie w pokoju będzie nałożona kara 450 PLN.</b> Residents of the hotel are able to smoke in the clearly marked designated places. To ensure the comfort of our non-smoking guest, a 450 PLN charge will be applied for smoking in non-smoking areas. 
+<b>Informujemy, że podane przez Pana/Panią w podczas zameldowania w Hotelu dane osobowe będą przetwarzane przez Modlin Sp. z o.o. ul. Ułańska 5 60-748 Poznań NIP: 7792437086 (dalej określana też jako „administrator” lub „Hotel”). W celu prawidłowej obsługi Państwa pobytu w Hotelu, w tym w celach rachunkowych oraz w celu marketingu bezpośredniego własnych produktów i usług Modlin Sp. z o.o., tj. na podstawie art. 6 ust. 1 lit. b RODO (w celu wykonania umowy) oraz na podstawie art. 6 ust. 1 lit. f RODO (w celu realizacji prawnie uzasadnionych interesów administratora w postaci marketingu własnych towarów i usług). W przypadku danych, co do których wyraziła Pani/Pan zgodę, przysługiwać Pani/Panu będzie prawo do cofnięcia zgody w dowolnym momencie bez wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Odbiorcami Pani/Pana danych osobowych mogą być podmioty przetwarzające dane osobowe na podstawie powierzenia przetwarzania danych przez administratora, jeśli jest to niezbędne dla prawidłowej obsługi Państwa pobytu w Hotelu, np. podmioty świadczące usługi przewozu, podmioty świadczące usługi rachunkowe i księgowe oraz inni administratorzy danych przetwarzających dane we własnym imieniu, np. podmioty prowadzące działalność płatniczą. Podane przez Panią/Pana dane osobowe będą przechowywane przez okres trwania umowy o świadczenie usług hotelowych oraz przez okres przedawnienia ewentualnych roszczeń mogących wyniknąć z niewykonania lub nienależytego wykonania tej umowy, a w przypadku marketingu - do momentu cofnięcia przez Panią/Pana zgody na przetwarzanie danych w tym celu lub złożenia sprzeciwu. Posiada Pani/Pan prawo dostępu do treści swoich danych oraz prawo ich sprostowania, usunięcia, ograniczenia przetwarzania, prawo do przenoszenia danych, prawo wniesienia sprzeciwu, prawo do cofnięcia zgody na ich przetwarzanie w dowolnym momencie bez wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody wyrażonej przed jej cofnięciem. Swoje prawa mogą Państwo realizować poprzez przesłanie stosownego oświadczenia na adres email recepcja@royalhotel.pl lub przekazanie korespondencyjnie na adres administratora z dopiskiem „Dane osobowe”. Ma Pani/Pan prawo wniesienia skargi do organu nadzorczego, gdy uzna Pani/Pan, że przetwarzanie danych osobowych narusza przepisy dotyczące ochrony danych osobowych. Podanie przez Panią/Pana danych osobowych jest dobrowolne, ale konieczne dla nawiązania i wykonywania umowy o świadczenie usług hotelowych oraz do realizacji celów marketingowych przez administratora.</b> I hereby give my consent for my personal data being processed for the purposes of the professional service of my stay.You are hereby informed that your personal data will be processed by Modlin Sp. z o.o. NIP: 7792437086 with its seat in Poznań (60-748) Ułańska 5, entered into the Register of Entrepreneurs of National Court Register kept by the District Court for Poznań – Nowe Miasto in Poznań, VIII Commercial Division of the National Court Register, for the purposes of professional service of your stay in our Hotel, incl. accounting purposes and for the purposes of direct marketing of services or products of Modlin Sp. z o.o. with its seat in Poznań. 
+</p>
+<p><b>Podpisując Kartę Meldunkową akceptuję regulamin hotelowy. Regulamin dostępny jest w recepcji.</b>By signing the Registration Card, I accept the hotel regulations. Regulations are available at the reception.</p>
+</div>
+
+<table style="width: 100%;">
+    <tbody>
+    <tr>
+        <td style="float: left; font-size: 24px;  ">
+            _________________________ </br>
+            <p style="font-size: 10px; text-align: center;">Czytelny podpis / Signature</p>
+            <div style="font-size: 15px;">
+
+        </td>
+        </div>
+
+
+    </tr>
+    </tbody>
+
+</table>
+<div>
