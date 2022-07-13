@@ -1,0 +1,22 @@
+{
+  "name": "salonfryzjerski",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass souruce/sass/main.scss build/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IreneuszGorak/website-hairdresser-mscice.git"
+  },
+  "author": "Ireneusz Gorak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IreneuszGorak/website-hairdresser-mscice/issues"
+  },
+  "homepage": "https://github.com/IreneuszGorak/website-hairdresser-mscice#readme",
+  "dependencies": {
+    "node": "^18.5.0"
+  }
+}
