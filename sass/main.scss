@@ -54,6 +54,29 @@ Spacing Systempx)
 
 */
 
+$color-background-one: #191419;
+$color-background-two: #171217;
+$color-primary-orange: #fea400; 
+
+
+$color-primary-orange-darker: #b27300;
+
+$color-default-white: #f0eeeb;
+$color-white-brighter: #e9ecef;
+
+$color-black:#000;
+$color-default-black: #222;
+
+$color-grey-middle: #555;
+$color-grey-brighter:#999;
+$color-grey-darker:#333;
+
+$color-testimonials-tag-facebook: #ffd43b;
+$color-testimonials-tag-google: #c0eb75;
+
+
+
+
 * {
   padding:0;
   margin:0;
@@ -76,7 +99,7 @@ Spacing Systempx)
     font-family: 'Inter' ,sans-serif;
     line-height:1;
     font-weight:400;
-    color:#555;
+    color:$color-grey-middle;
 
   }
 
@@ -113,15 +136,15 @@ Spacing Systempx)
     line-height: 3.5rem;
      font-size: 3.0rem;
      margin-bottom: 4.0rem;
-     color:#999;
+     color:$color-grey-brighter;
      /* padding-left:8rem; */
 
   }
 
   .btn-reservation:link, .btn-reservation:visited {
 
-    background-color:#fea400; 
-    color:#222;
+    background-color:$color-primary-orange;
+    color: $color-default-black;
     font-size: 2rem;
     font-weight:700;
     padding: 1.6rem 3.2rem;
@@ -134,9 +157,9 @@ Spacing Systempx)
 
   .btn-reservation:hover, .btn-reservation:active {
 
-    color:#000;
+    color:$color-black;
     /* trick to add border inside */
-    box-shadow:0 0 0 3px #f0eeeb;
+    box-shadow:0 0 0 3px $color-default-white;
 
   }
 
@@ -148,20 +171,20 @@ Spacing Systempx)
   .phone-call:link,
   .phone-call:visited {
     text-decoration: none;
-    color:#f0eeeb;
+    color:$color-default-white;
   }
 
   .phone-call:hover,
   .phone-call:active {
     text-decoration: none;
-    color:#f0eeeb;
+    color:$color-default-white;
   }
 
   /* ****************************************************************/
   /* HEADER*/
   /* ****************************************************************/
    .header-container {
-    background-color: #191419;
+    background-color: $color-background-one;
     
 
    } 
@@ -182,7 +205,7 @@ Spacing Systempx)
 
     .header-name {
       font-size: 2.2rem;
-      color:#f0eeeb;
+      color:$color-default-white;
       
     }
 
@@ -211,21 +234,21 @@ Spacing Systempx)
       text-decoration: none;
       font-size: 2.0rem;
       font-weight:500;
-      color:#999;
+      color:$color-grey-brighter;
       transition: all 0.3s;
     }
 
 
     .main-nav-link:hover, 
     .main-nav-link:active {
-      color:#fea400;
+      color:$color-primary-orange;
     }
 
 
     .nav-cta:link,
     .nav-cta:visited {
-      background-color:#fea400; 
-      color:#222;
+      background-color:$color-primary-orange;
+      color: $color-default-black;
       font-size: 2rem;
       font-weight:700;
       padding: 1.6rem 3.2rem;
@@ -239,9 +262,9 @@ Spacing Systempx)
     .nav-cta:hover,
     .nav-cta:active {
 
-    color:#000;
+    color:$color-black;
     /* trick to add border inside */
-    box-shadow:0 0 0 3px #f0eeeb;
+    box-shadow:0 0 0 3px $color-default-white;
     }
     /* ****************************************************************/
   /* HERO SECTION*/
@@ -250,7 +273,7 @@ Spacing Systempx)
 
 
   .hero-section {
-    background-color: #191419;
+    background-color: $color-background-one;
     /* padding:2.4rem; */
     padding-bottom: 9.6rem;
     padding-top: 6.4rem;
@@ -274,7 +297,7 @@ Spacing Systempx)
     font-size:6rem;
     font-weight: 700;
     line-height:1.05;
-    color:#f0eeeb;
+    color:$color-default-white;
     /* padding-left:8rem; */
     margin-bottom: 6.4rem;
     letter-spacing:-0.5px;
@@ -297,8 +320,8 @@ Spacing Systempx)
     padding-top: 6.4rem;
     padding-bottom: 9.6rem;
     margin:0 auto;
-    background-color: #171217;
-    color:#f0eeeb;
+    background-color: $color-background-two;
+    color:$color-default-white;
   }
   
   
@@ -308,11 +331,11 @@ Spacing Systempx)
     /* padding:3.2rem; */
     font-size: 8.6rem;
     padding-bottom: 1.6rem;
-    color:#555;
+    color:$color-grey-middle;
   }
   .services-line-separator {
     line-height: 1.5;
-    background-color: #555;
+    background-color: $color-grey-middle;
     width: 40%;
     height: 1px;
  
@@ -322,7 +345,7 @@ Spacing Systempx)
     font-size: 3.6rem;
     padding-top: 2.6rem;
     padding-bottom: 2.6rem;
-    color:#fea400;
+    color:$color-primary-orange;
    
   
   
@@ -335,7 +358,7 @@ Spacing Systempx)
     font-size: 1.4rem;
     letter-spacing: 1.5px;
     line-height: 1.5;
-    color:#999;
+    color: $color-grey-brighter; 
     padding-bottom: 1.6rem;
   }
   
@@ -362,7 +385,7 @@ Spacing Systempx)
   /* SECTION GALLERY*/
   /* ****************************************************************/
   .section-galery {
-    background-color: #191419;
+    background-color: $color-background-one;
 
     padding-top:4.8rem;
     padding-bottom: 6.4rem;
@@ -378,7 +401,7 @@ Spacing Systempx)
     float:right;
     margin-right:22rem;
     /* margin:0 auto; */
-    color:#333;
+    color: $color-grey-darker;
 
   }
 
@@ -433,7 +456,7 @@ Spacing Systempx)
 
   margin:0 auto;
   text-align: right;
-  color:#f0eeeb;
+  color:$color-default-white;
 
 }
   /* ****************************************************************/
@@ -441,7 +464,7 @@ Spacing Systempx)
   /* ****************************************************************/
 
 .section-hashtags {
-  background-color: #b27300;
+  background-color: $color-primary-orange-darker;
   padding-bottom:3.6rem;
   padding-top:3.6rem;
 
@@ -460,7 +483,7 @@ Spacing Systempx)
   font-size: 3.6rem;
   line-height: 1.8;
   text-align: center;
-  color:#e9ecef;
+  color: $color-white-brighter;
   letter-spacing: -0.75px;
   /* padding-left: 3.2rem; */
   
@@ -472,7 +495,7 @@ Spacing Systempx)
   /* ****************************************************************/
 
   .section-call{
-    background-color: #191419;
+    background-color:$color-background-one;
     padding-top: 18rem;
     padding-bottom: 9.6rem;
     }
@@ -500,7 +523,7 @@ Spacing Systempx)
     
     .call-header-text {
       font-size: 7.4rem;
-      color:#f0eeeb;
+      color:$color-default-white;
       font-weight: bold;
     
     
@@ -508,7 +531,7 @@ Spacing Systempx)
     
     .call-marketing-promo-text {
       font-size: 3.2rem;
-      color: #555;
+      color: $color-grey-middle;
       font-weight: bold;
       padding-top: 3.2rem;
       padding-bottom: 4.6rem;
@@ -519,8 +542,8 @@ Spacing Systempx)
     .btn-cta-facebook-messenger:link,
     .btn-cta-facebook-messenger:visited
     {
-      background-color:#fea400; 
-      color:#222;
+      background-color:$color-primary-orange;
+      color: $color-default-black;
       font-size: 2rem;
       font-weight:700;
       padding: 1.6rem 3.2rem;
@@ -535,9 +558,9 @@ Spacing Systempx)
     .btn-cta-call:active,
     .btn-cta-facebook-messenger:hover,
     .btn-cta-facebook-messenger:active {
-    color:#000;
+    color: $color-black;
     /* trick to add border inside */
-    box-shadow:0 0 0 3px #f0eeeb;
+    box-shadow:0 0 0 3px $color-default-white;
     
     }
     
@@ -546,7 +569,7 @@ Spacing Systempx)
     .call-choose-text {
  
       font-size: 2.8rem;
-      color:#555;
+      color:$color-grey-middle;
   
       font-weight:700;
       padding-left: 1.6rem;
@@ -574,7 +597,7 @@ Spacing Systempx)
   .section-testimonials {
   
     
-    background-color: #191419;
+    background-color:$color-background-one;
     padding-bottom: 9.6rem;
     padding-top: 4.8rem;
    
@@ -586,7 +609,7 @@ Spacing Systempx)
  
     font-size: 3.2rem;
     padding-top: 3.6rem;
-    color:#555;
+    color:$color-grey-middle;
     font-weight: 700;
     padding-left: 3.2rem;
  
@@ -620,7 +643,7 @@ Spacing Systempx)
     min-height: 32rem;
     
     margin: 0.5rem;
-    color:#999;
+    color:$color-grey-brighter;
 
     border: calc(1rem + 0.1vw) solid transparent;
     box-shadow: 0 0 3px 3px rgba(7, 7, 7, 0.5);
@@ -630,8 +653,8 @@ Spacing Systempx)
 
 
   .testimonials-tag-facebook{
-    background-color: #ffd43b;
-    color:#333;
+    background-color: $color-testimonials-tag-facebook
+    color:$color-grey-darker;
     padding: 0.1rem;
     width:11rem;
     text-align: center;
@@ -646,8 +669,8 @@ Spacing Systempx)
   }
 
   .testimonials-tag-google {
-    background-color: #c0eb75;
-    color:#333;
+    background-color: $color-testimonials-tag-google;
+    color:$color-grey-darker;
     padding: 0.1rem;
     width:11rem;
     text-align: center;
@@ -676,7 +699,7 @@ Spacing Systempx)
     padding-left:3rem;
     font-size: 1.6rem;
     line-height: 1;
-    color:#555;
+    color:$color-grey-middle;
     align-self: flex-start;
     font-weight: bold;
   }
@@ -706,7 +729,7 @@ Spacing Systempx)
   /* ****************************************************************/
   .section-contact{
     
-    background-color: #191419;
+    background-color: $color-background-one;
     padding-bottom: 9.6rem;
      
   }
@@ -722,7 +745,7 @@ Spacing Systempx)
   
   .section-contact-header {
     font-size:6.2rem;
-    color:#f0eeeb;
+    color:$color-default-white;
     margin: 0 auto;
   }
  
@@ -738,14 +761,14 @@ Spacing Systempx)
     
   }
 .tag-adress {
-  color:#fea400;
+  color:$color-primary-orange;
 }
 
   .adress {
     font-size: 3.6rem;
     padding-top: 2.6rem;
     padding-bottom: 2.6rem;
-    color:#999;
+    color:$color-grey-brighter;
     line-height: 1.6;
   }
 
