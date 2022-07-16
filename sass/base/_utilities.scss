@@ -1,0 +1,33 @@
+
+
+  /* ****************************************************************/
+  /* GENERAL REUSABLE COMPONENTS*/
+  /* ****************************************************************/
+  .cointainer {
+    max-width: 120rem;
+    margin:0 auto;
+    /* padding:0 3.2rem; */
+  }
+  
+  .grid {
+    display:grid;
+    gap:8.6rem;
+  }
+  
+  .grid--2-columns {
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  .grid--3-columns {
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+  .grid--4-columns {
+    grid-template-columns: repeat(4,1fr);
+  }
+
+  
+  .margin-left-middle{
+    margin-left:8rem !important;
+
+  }
