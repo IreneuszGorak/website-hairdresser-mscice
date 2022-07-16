@@ -1,13 +1,4 @@
- 
- 
-  
- 
 
-  
-   
-        
-   
-  
     /* ****************************************************************/
     /* FOOTER  CONTACT*/
     /* ****************************************************************/
@@ -15,9 +6,14 @@
       
       background-color: $color-background-one;
       padding-bottom: 9.6rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+
+   
+
+
        
       &-container {
-     
         max-width: 120rem;
         margin:0 auto;
       
@@ -31,18 +27,24 @@
       }
      
       
-      &-grid-container{
+      &-flex-container{
         display:flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         margin:0 auto;
-       
         gap:3.4rem;
         
       }
       &-google-map {
         margin:0 auto;
+        max-width:65%
+      }
+
+      &-adress {
+        width: 30%;
+        margin:0 auto;
+        display: block;
       }
     
     }
@@ -70,7 +72,13 @@
     }
   
     .google-maps-iframe {
-      width: 60rem;
-      height: 35rem;
+      width: 65rem;
+      height: 40rem;
+
+      @include respond(big) {
+        width: 55rem;
+        height: 40rem;
+      }
+
     }
   

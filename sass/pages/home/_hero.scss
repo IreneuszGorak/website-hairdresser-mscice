@@ -7,11 +7,11 @@
   .hero {
 
     max-width: $width-header;
-    
     display: grid;
     gap:6.4rem;
     grid-template-columns: 1fr 1fr;
     align-items:center;
+    margin:0 auto;
     
  
     

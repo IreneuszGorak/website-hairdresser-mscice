@@ -34,6 +34,18 @@
       box-shadow: 0 0 3px 3px rgba($color-testimonials-shadow, .5);
       border-radius: 9px;
 
+        @include respond(xl) {
+          min-width: 30%;
+          max-width: 30%;
+   
+        }
+
+        @include respond(lg) {
+          min-width: 40%;
+          max-width: 40%;
+          min-height: 30rem;
+        }
+
       // margin:4rem auto;
   
       &-cointainer {
@@ -47,6 +59,17 @@
         padding-left: 4rem;
         padding-right: 4rem;
         max-width: $width-header;
+
+          @include respond(xl) {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin:0 auto;
+      
+            justify-content: center;
+             align-content: center;
+
+          }
     }
 
 

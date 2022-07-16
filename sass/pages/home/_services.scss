@@ -8,6 +8,11 @@
     background-color: $color-background-two;
     color:$color-default-white;
 
+    @include respond(xl) {
+      padding-top: 0;
+
+    }
+
     &-line-separator {
       line-height: 1.5;
       background-color: $color-grey-middle;
@@ -50,15 +55,40 @@
     Font-size: 7.4rem;
     font-weight: 700;
     text-align: center;    
+
+
   }
   
   &-img {
     padding-top: 6.4rem;
     width:85%;
     opacity:0.8;
+ 
+
+  @include respond(xl) {
+    display:block;
+    width:24rem;
+    margin:0 auto;
   }
-  
+}
     
+  }
+
+  @include respond(xl) {
+    .cointainer {
+      max-width: 115rem;
+    }
+  
+    .order-three {
+      grid-row:1;
+      grid-column: 2;
+    }
+
+
+    .order-four {
+      grid-row:3;
+      grid-column: 1;
+    }
   }
   
   

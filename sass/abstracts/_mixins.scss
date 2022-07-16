@@ -25,11 +25,11 @@
     }
 
     @if $breakpoint == xl {
-      @media (min-width: 75em) {@content;}
+      @media (max-width: 75em) {@content;}
     }
 
     @if $breakpoint == big {
-      @media (min-width: 87em) {@content;}
+      @media (max-width: 87em) {@content;}
     }
 
 }
