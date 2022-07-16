@@ -8,6 +8,8 @@
       background-color:$color-background-one;
       padding-bottom: 9.6rem;
       padding-top: 4.8rem;
+   
+      margin:0 auto;
      
     }
   
@@ -25,21 +27,29 @@
       letter-spacing: 0.75px;
       min-height: 32rem;
       
-      margin: 0.5rem;
+      // margin: 0.5rem;
       color:$color-grey-brighter;
   
       border: calc(1rem + 0.1vw) solid transparent;
       box-shadow: 0 0 3px 3px rgba($color-testimonials-shadow, .5);
       border-radius: 9px;
+
+      // margin:4rem auto;
   
       &-cointainer {
         display: grid;
+        justify-items: center;
+        align-items: center;
         grid-template-columns: repeat(4,1fr);
         row-gap:3.6rem;
         column-gap: 3.6rem;
         padding-top: 2.4rem;
-        max-width: 140rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        max-width: $width-header;
     }
+
+
     &-tag-facebook{
       background-color: $color-testimonials-tag-facebook;
       color: $color-grey-darker;

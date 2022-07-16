@@ -7,15 +7,18 @@
   .hero {
 
     max-width: $width-header;
-    margin:0 auto;
+    
     display: grid;
     gap:6.4rem;
     grid-template-columns: 1fr 1fr;
     align-items:center;
     
+ 
+    
     &-section {
     background-color: $color-background-one;
     /* padding:2.4rem; */
+    padding-left:4rem;
     padding-bottom: 9.6rem;
     padding-top: 6.4rem;}
 
@@ -42,7 +45,7 @@
       }
       
     &-img {
-      width:100%;
+      width:88%;
       opacity:0.8;
       border-radius: 15px;
     }
