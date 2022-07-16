@@ -1,0 +1,76 @@
+ 
+ 
+  
+ 
+
+  
+   
+        
+   
+  
+    /* ****************************************************************/
+    /* FOOTER  CONTACT*/
+    /* ****************************************************************/
+    .section-contact{
+      
+      background-color: $color-background-one;
+      padding-bottom: 9.6rem;
+       
+      &-container {
+     
+        max-width: 120rem;
+        margin:0 auto;
+      
+     
+      }
+    
+      &-header {
+        font-size:6.2rem;
+        color:$color-default-white;
+        margin: 0 auto;
+      }
+     
+      
+      &-grid-container{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin:0 auto;
+       
+        gap:3.4rem;
+        
+      }
+      &-google-map {
+        margin:0 auto;
+      }
+    
+    }
+    
+  
+    
+  .tag-adress {
+    color:$color-primary-orange;
+  }
+  
+    .adress {
+      font-size: 3.6rem;
+      padding-top: 2.6rem;
+      padding-bottom: 2.6rem;
+      color:$color-grey-brighter;
+      line-height: 1.6;
+    }
+  
+  
+    .section-call-location-icon{
+      height: 6.4rem;
+      vertical-align: middle;
+      margin-right: 1rem;
+      filter: invert(32%) sepia(11%) saturate(0%) hue-rotate(193deg) brightness(95%) contrast(88%);  
+    }
+  
+    .google-maps-iframe {
+      width: 60rem;
+      height: 35rem;
+    }
+  

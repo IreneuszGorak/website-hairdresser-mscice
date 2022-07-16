@@ -1,0 +1,120 @@
+ /* ****************************************************************/
+    /* SECTION testimonials*/
+    /* ****************************************************************/
+    
+    .section-testimonials {
+    
+      
+      background-color:$color-background-one;
+      padding-bottom: 9.6rem;
+      padding-top: 4.8rem;
+     
+    }
+  
+
+  
+    .testimonials {
+      display:flex;
+      flex-direction:column;
+      justify-content: flex-start;
+      align-items: center;
+  
+  
+      font-size: 1.6rem;
+      line-height: 1.6;
+      letter-spacing: 0.75px;
+      min-height: 32rem;
+      
+      margin: 0.5rem;
+      color:$color-grey-brighter;
+  
+      border: calc(1rem + 0.1vw) solid transparent;
+      box-shadow: 0 0 3px 3px rgba($color-testimonials-shadow, .5);
+      border-radius: 9px;
+  
+      &-cointainer {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        row-gap:3.6rem;
+        column-gap: 3.6rem;
+        padding-top: 2.4rem;
+        max-width: 140rem;
+    }
+    &-tag-facebook{
+      background-color: $color-testimonials-tag-facebook;
+      color: $color-grey-darker;
+      padding: 0.1rem;
+      width:11rem;
+      text-align: center;
+      border-radius: 9px;
+      margin-left:2rem;
+      margin-top:2.4rem;
+      margin-bottom:2rem;
+      align-self: flex-start;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+    
+    }
+  
+    &-tag-google {
+      background-color: $color-testimonials-tag-google;
+      color:$color-grey-darker;
+      padding: 0.1rem;
+      width:11rem;
+      text-align: center;
+      border-radius: 9px;
+      margin-left:2rem;
+      margin-top:2.4rem;
+      margin-bottom:2rem;
+      align-self: flex-start;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+    }
+  
+  
+    &-text{
+      padding-left:2rem;
+      padding-right:2rem;
+    }
+  
+    &-number-three{
+      align-self: flex-start;
+    }
+  
+    &-person-name{
+      padding-top: 2.4rem;
+  
+      padding-left:3rem;
+      font-size: 1.6rem;
+      line-height: 1;
+      color:$color-grey-middle;
+      align-self: flex-start;
+      font-weight: bold;
+    }
+  
+    }
+  
+  
+   
+  
+    
+    .testimonials-btn-facebook {
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+    .btn-facebook-galery-link {
+  
+      margin:3.2rem;
+      
+    }
+  
+    .section-call-phone-icon {
+      height: 2.0rem;
+      vertical-align: middle;
+      margin-right: 1rem;
+      filter: invert(16%) sepia(15%) saturate(0%) hue-rotate(163deg) brightness(109%) contrast(95%);
+    }
+  

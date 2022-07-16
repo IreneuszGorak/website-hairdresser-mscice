@@ -1,0 +1,80 @@
+ 
+  /* ****************************************************************/
+  /* SECTION GALLERY*/
+  /* ****************************************************************/
+  .section-galery {
+    background-color: $color-background-one;
+
+    padding-top:4.8rem;
+    padding-bottom: 6.4rem;
+  }
+
+
+
+
+  .line-separator {
+    width:40%;
+    float:right;
+    margin-right:22rem;
+    /* margin:0 auto; */
+    color: $color-grey-darker;
+
+  }
+
+
+  .galery {
+
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-top:3.2rem;
+    padding-bottom: 9.6rem;
+    gap:4.8rem;
+
+    justify-content:center;
+    align-content: center;
+    max-width: $width-galery:
+    margin:0 auto;
+
+
+    &-name-padding {
+      padding-bottom: 1.6rem;
+    }
+  
+    
+    &-item {
+      overflow: hidden;
+    }
+
+    &-item img {
+    /* width: 100%; */
+    max-height: 20rem;
+    transition: all 0.4s;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba($color-galery-shadow,.4) 5px 5px, rgba($color-galery-shadow,.3) 10px 10px, rgba($color-galery-shadow,.2) 15px 15px, rgba($color-galery-shadow,.1) 20px 20px, rgba($color-galery-shadow,.005) 25px 25px;
+    }
+
+
+    &-item img:hover,
+    &-irem img:active {
+
+      transform: scale(1.05);
+      filter: brightness(120%);
+      
+  
+}
+
+    &-name {
+      font-size:7.4rem;
+      font-weight: 700;
+      max-width:130rem;
+
+      padding-bottom: 3.2rem;
+
+      margin:0 auto;
+      text-align: right;
+      color:$color-default-white;
+
+    }
+  }

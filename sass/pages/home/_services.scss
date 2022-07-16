@@ -1,0 +1,64 @@
+ /* ****************************************************************/
+  /* SECTION SERVICES*/
+  /* ****************************************************************/
+  .services {
+    padding-top: 6.4rem;
+    padding-bottom: 9.6rem;
+    margin:0 auto;
+    background-color: $color-background-two;
+    color:$color-default-white;
+
+    &-line-separator {
+      line-height: 1.5;
+      background-color: $color-grey-middle;
+      width: 40%;
+      height: 1px;
+   
+    }
+
+    
+  &-number {
+    /* padding:3.2rem; */
+    font-size: 8.6rem;
+    padding-bottom: 1.6rem;
+    color:$color-grey-middle;
+  }
+
+  
+  &-name {
+    font-size: 3.6rem;
+    padding-top: 2.6rem;
+    padding-bottom: 2.6rem;
+    color:$color-primary-orange;
+  
+  }
+
+  &-add-space{
+    line-height: 2;
+  }
+  
+  &-descryption {
+    font-size: 1.4rem;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    color: $color-grey-brighter; 
+    padding-bottom: 1.6rem;
+  }
+  
+  &-info {
+    padding-top:12rem;
+    Font-size: 7.4rem;
+    font-weight: 700;
+    text-align: center;    
+  }
+  
+  &-img {
+    padding-top: 6.4rem;
+    width:85%;
+    opacity:0.8;
+  }
+  
+    
+  }
+  
+  

@@ -1,0 +1,54 @@
+/* ****************************************************************/
+  /* HERO SECTION*/
+  /* ****************************************************************/
+  
+
+
+  .hero {
+
+    max-width: $width-header;
+    margin:0 auto;
+    display: grid;
+    gap:6.4rem;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    
+    &-section {
+    background-color: $color-background-one;
+    /* padding:2.4rem; */
+    padding-bottom: 9.6rem;
+    padding-top: 6.4rem;}
+
+ 
+
+    &-descryption {
+      padding-bottom: 2.4rem;
+      font-weight: 500;
+      line-height: 3.5rem;
+       font-size: 3.0rem;
+       margin-bottom: 4.0rem;
+       color:$color-grey-brighter;
+       /* padding-left:8rem; */
+    }
+
+    &-primary {
+      font-size:6rem;
+      font-weight: 700;
+      line-height:1.05;
+      color:$color-default-white;
+      /* padding-left:8rem; */
+      margin-bottom: 6.4rem;
+      letter-spacing:-0.5px;
+      }
+      
+    &-img {
+      width:100%;
+      opacity:0.8;
+      border-radius: 15px;
+    }
+  
+
+
+}
+
+
