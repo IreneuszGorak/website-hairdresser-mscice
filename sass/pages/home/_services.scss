@@ -1,6 +1,8 @@
  /* ****************************************************************/
   /* SECTION SERVICES*/
   /* ****************************************************************/
+
+
   .services {
     padding-top: 6.4rem;
     padding-bottom: 9.6rem;
@@ -10,7 +12,10 @@
 
     @include respond(xl) {
       padding-top: 0;
+    }
 
+    @include respond(sm) {
+      padding-top: 0; 
     }
 
     &-line-separator {
@@ -24,14 +29,14 @@
     
   &-number {
     /* padding:3.2rem; */
-    font-size: 8.6rem;
+    font-size: $font-big-number;
     padding-bottom: 1.6rem;
     color:$color-grey-middle;
   }
 
   
   &-name {
-    font-size: 3.6rem;
+    font-size: $font-title-description;
     padding-top: 2.6rem;
     padding-bottom: 2.6rem;
     color:$color-primary-orange;
@@ -43,7 +48,7 @@
   }
   
   &-descryption {
-    font-size: 1.4rem;
+    font-size: $font-text-p;
     letter-spacing: 1.5px;
     line-height: 1.5;
     color: $color-grey-brighter; 
@@ -52,12 +57,19 @@
   
   &-info {
     padding-top:12rem;
-    Font-size: 7.4rem;
+    Font-size: $font-h2;
     font-weight: 700;
     text-align: center;    
 
-
-  }
+    @include respond(sm) {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        padding-left: 6.2rem;
+        padding-right: 6.2rem;
+      }
+    }
+  
   
   &-img {
     padding-top: 6.4rem;
@@ -70,9 +82,13 @@
     width:24rem;
     margin:0 auto;
   }
-}
-    
+
+  @include respond(sm) {
+    width: 40%;
   }
+}
+  
+
 
   @include respond(xl) {
     .cointainer {
@@ -89,6 +105,29 @@
       grid-row:3;
       grid-column: 1;
     }
+
   }
-  
+
+    @include respond(sm) {
+      .cointainer {
+        padding-left: 3.2rem;
+       padding-right: 3.2rem;
+      }
+    
+          .order-three {
+            
+            padding-top: 2rem;
+            grid-row:1;
+            grid-column: 1;
+          }
+
+          .order-four {
+            padding-top: 2rem;
+            grid-row:4;
+            grid-column: 1;
+          }
+
+  }
+
+}
   

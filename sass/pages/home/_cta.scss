@@ -4,10 +4,14 @@
   
     .section-call{
       background-color:$color-background-one;
-      padding-top: 18rem;
+      padding-top: 12rem;
       padding-bottom: 9.6rem;
       padding-left: 4rem;
       padding-right: 4rem;
+
+          @include respond(sm) {
+            padding-bottom: 2rem;
+          }
   
   
       &-grid-container {
@@ -20,6 +24,15 @@
       
         max-width: $width-sections;
         margin:0 auto;
+
+        @include respond(sm) {
+          grid-template-columns: 1fr;
+          gap:6.4rem;
+          padding-bottom: 3.2rem;
+
+
+
+        }
        }
   
        &-buttons-cta-container {
@@ -28,14 +41,24 @@
         align-items:center;
         gap:3.2rem;
       }
+
+      &-phone-icon {
+      
+          height:$font-buttons;
+          vertical-align: middle;
+          margin-right: 1rem;
+          filter: invert(16%) sepia(15%) saturate(0%) hue-rotate(163deg) brightness(109%) contrast(95%);
+        
+      
+      }
       
       &-header-text {
-        font-size: 7.4rem;
+        font-size: $font-h1;
         color:$color-default-white;
         font-weight: bold;
       }
       &-marketing-promo-text {
-        font-size: 3.2rem;
+        font-size: $font-hero-text;
         color: $color-grey-middle;
         font-weight: bold;
         padding-top: 3.2rem;
@@ -45,7 +68,7 @@
   
       &-choose-text {
    
-        font-size: 2.8rem;
+        font-size: $font-buttons;
         color:$color-grey-middle;
     
         font-weight:700;
@@ -57,12 +80,21 @@
           text-align: center;
           height: 100%;
           width: 100%;
+
+          @include respond(sm) {
+            width: 50vw;
+
+          }
           
       
         }
       
         &-img {
           height: 100%;
+
+            @include respond(sm) {
+              width: 80%;
+            }
           
         }
   
@@ -78,7 +110,7 @@
         {
           background-color:$color-primary-orange;
           color: $color-default-black;
-          font-size: 2rem;
+          font-size: $font-buttons;
           font-weight:700;
           padding: 1.6rem 3.2rem;
           text-decoration:none;
@@ -101,6 +133,25 @@
   
       }
       
-      
+@include respond(xl) {
+  
+    .btn-cta-facebook-messenger img,
+    .btn-cta-call img {
+      display: block;
+      margin:0 auto;
+
+    }
+
+    .btn-cta-facebook-messenger span,
+    .btn-cta-call span {
+      line-height: 1.6;
+    }
+
+
+    .btn-cta-call:link, .btn-cta-call:visited, .btn-cta-facebook-messenger:link, .btn-cta-facebook-messenger:visited {
+      padding: 0.6rem 2.5rem;
+    }
+
+}
       
       

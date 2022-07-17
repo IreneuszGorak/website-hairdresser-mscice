@@ -69,10 +69,11 @@
       
     max-height: 20rem;
     transition: all 0.4s;
-    background-size: cover;
+   
     background-position: center;
     box-shadow: rgba($color-galery-shadow,.4) 5px 5px, rgba($color-galery-shadow,.3) 10px 10px, rgba($color-galery-shadow,.2) 15px 15px, rgba($color-galery-shadow,.1) 20px 20px, rgba($color-galery-shadow,.005) 25px 25px;
-    
+    object-fit: cover;
+
     @include respond(big) {
       width:90%;
       max-height: 19rem;
@@ -93,7 +94,7 @@
 }
 
     &-name {
-      font-size:7.4rem;
+      font-size:$font-h2;
       font-weight: 700;
       max-width:130rem;
 

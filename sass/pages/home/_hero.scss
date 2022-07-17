@@ -13,6 +13,13 @@
     align-items:center;
     margin:0 auto;
     
+      @include respond(sm) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap:5.2rem;
+      }
  
     
     &-section {
@@ -20,7 +27,15 @@
     /* padding:2.4rem; */
     padding-left:4rem;
     padding-bottom: 9.6rem;
-    padding-top: 6.4rem;}
+    padding-top: 6.4rem;
+      
+    @include respond(sm) {
+      padding-bottom: 3.2rem;
+    }
+  
+  }
+
+    
 
  
 
@@ -28,27 +43,47 @@
       padding-bottom: 2.4rem;
       font-weight: 500;
       line-height: 3.5rem;
-       font-size: 3.0rem;
-       margin-bottom: 4.0rem;
-       color:$color-grey-brighter;
-       /* padding-left:8rem; */
+      font-size: $font-hero-text;
+      margin-bottom: 4.0rem;
+      color:$color-grey-brighter;
+
+      @include respond(sm) {
+        margin-bottom: 2.4rem;
+      }
     }
 
     &-primary {
-      font-size:6rem;
+      font-size:$font-h1;
       font-weight: 700;
       line-height:1.05;
       color:$color-default-white;
       /* padding-left:8rem; */
       margin-bottom: 6.4rem;
       letter-spacing:-0.5px;
+      
+      @include respond(sm) {
+        margin-bottom: 1.8rem;
       }
+    
+    }
       
     &-img {
       width:88%;
       opacity:0.8;
       border-radius: 15px;
+
+        @include respond(sm) {
+          display: block;
+          margin:0 auto;
+        }
     }
+
+        &-container {
+
+          @include respond(sm) {
+            padding-top: 8.2rem;
+          }
+        }
   
 
 

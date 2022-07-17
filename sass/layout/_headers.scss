@@ -6,11 +6,14 @@
   &:active {
     text-decoration: none;
     color:$color-default-white;
+
+    @include respond(big) {
+      font-size: $font-menu-phone;
+    }
+
   }
 
-  @include respond(big) {
-    font-size: 2rem ;
-  }
+
 }
 
 
@@ -72,7 +75,7 @@
 &-link:visited {
 display: inline-block;
 text-decoration: none;
-font-size: 2.0rem;
+font-size: $font-menu;
 font-weight:500;
 color:$color-grey-brighter;
 transition: all 0.3s;
@@ -92,7 +95,7 @@ color:$color-primary-orange;
 &:visited {
   background-color:$color-primary-orange;
   color: $color-default-black;
-  font-size: 2rem;
+  font-size: $font-buttons;
   font-weight:700;
   padding: 1.6rem 3.2rem;
   text-decoration:none;
