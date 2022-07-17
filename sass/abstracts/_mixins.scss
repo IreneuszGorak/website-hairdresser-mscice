@@ -1,7 +1,7 @@
 
 
-//Media Querry Manager
-/*
+
+/* //Media Querry Manager
 87em  1392px big- extra extra large      
 75  1200px    xl - extra large
 62  992px     lg - large
@@ -34,8 +34,8 @@
 
 }
 
-// how we use - in element:
-/*
+
+/* // how we use - in element:
    @include respond(tab-land) {
     finst-size:12rem;
    }

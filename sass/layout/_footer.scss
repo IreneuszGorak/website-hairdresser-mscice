@@ -42,10 +42,10 @@
       &-google-map {
         display:inline-block;
         margin:0 auto;
-        // max-width:65%;
+       
 
           @include respond(sm) {
-            // max-width:65%;
+       
             text-align: center;
           }
       }
@@ -102,7 +102,7 @@
       }
 
       @include respond(xl) {
-        //wycentrować ifrmae
+   
 
       }
 
