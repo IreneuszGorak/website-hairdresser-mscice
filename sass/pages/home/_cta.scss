@@ -37,9 +37,10 @@
   
        &-buttons-cta-container {
         display:flex;
-        justify-content:center;
+        justify-content:space-between;
         align-items:center;
         gap:3.2rem;
+        
       }
 
       &-phone-icon {
@@ -53,7 +54,7 @@
       }
       
       &-header-text {
-        font-size: $font-h1;
+        font-size: $font-cta-h2;
         color:$color-default-white;
         font-weight: bold;
       }
@@ -61,7 +62,7 @@
         font-size: $font-hero-text;
         color: $color-grey-middle;
         font-weight: bold;
-        padding-top: 3.2rem;
+        padding-top: 6.2rem;
         padding-bottom: 4.6rem;
       }
   
@@ -112,7 +113,7 @@
           color: $color-default-black;
           font-size: $font-buttons;
           font-weight:700;
-          padding: 1.6rem 3.2rem;
+          padding: 1.2rem 2.4rem;
           text-decoration:none;
           text-transform: uppercase;
           /* border-radius:9px; */
