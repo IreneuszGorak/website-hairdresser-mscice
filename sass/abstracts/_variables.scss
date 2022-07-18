@@ -30,23 +30,23 @@ $width-sections:120rem;
 
 /* FONTS */
 
-$font-h1:calc(3rem + 3.6vw);
-$font-hero-text: calc(1.25rem + 1.3vw);
+$font-h1:calc(2rem + 2.1vw);    /* 60 px at 1980 */
+$font-hero-text: calc(1rem + 0.9vw);   /*25px at 1980 */
 
-$font-h2:calc(3rem + 3.6vw);
-$font-title-description:calc(1.5rem + 1.3vw);
+$font-h2:calc(2.1rem + 0.9vw);
+$font-title-description:calc(1rem + 1vw);
 
 
 $font-menu: calc(1.6rem + 0.25vw);
 $font-menu-phone:calc(2rem + 0.25vw);
 
-$font-big-number:calc(3.5rem + 3.6vw);
+$font-big-number:calc(2rem + 1vw);
 
 
-$font-text-p: calc(1.6rem + 0.25vw);
-$font-buttons: calc(2rem + 0.25vw);
+$font-text-p: calc(1.2rem + 0.25vw);
+$font-buttons: calc(1.8rem + 0.25vw);
 
-$font-hashtags-and-footer-adress:calc(1.25rem + 1.3vw);
+$font-hashtags-and-footer-adress:calc(1rem + 1vw);
 
 $font-testimonials-tags:calc(1.2rem + 0.25vw);
 $font-testimonials-text:calc(1.4rem + 0.25vw);

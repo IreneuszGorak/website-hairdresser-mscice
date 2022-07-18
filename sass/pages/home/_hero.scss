@@ -12,6 +12,7 @@
     grid-template-columns: 1fr 1fr;
     align-items:center;
     margin:0 auto;
+    min-height: 45vh;
     
       @include respond(sm) {
         display: flex;
@@ -68,7 +69,7 @@
     }
       
     &-img {
-      width:88%;
+      width:100%;
       opacity:0.8;
       border-radius: 15px;
 

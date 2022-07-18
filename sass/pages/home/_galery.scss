@@ -13,11 +13,6 @@
 
   }
 
-
-
-
-
-
   .line-separator {
     width:40%;
     float:right;
@@ -30,12 +25,11 @@
 
   .galery {
 
-
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    padding-top:3.2rem;
-    padding-bottom: 9.6rem;
-    gap:4.8rem;
+    padding-top:1.8rem;
+    padding-bottom: 1.8rem;
+    gap:2.8rem;
 
     justify-content:center;
     align-content: center;
@@ -56,6 +50,7 @@
          }
 
     &-name-padding {
+      padding-top: 1.6rem;
       padding-bottom: 1.6rem;
     }
   

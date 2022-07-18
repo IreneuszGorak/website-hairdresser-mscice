@@ -37,6 +37,7 @@
   
   &-name {
     font-size: $font-title-description;
+    letter-spacing: 0.9px;
     padding-top: 2.6rem;
     padding-bottom: 2.6rem;
     color:$color-primary-orange;
@@ -59,7 +60,9 @@
     padding-top:12rem;
     Font-size: $font-h2;
     font-weight: 700;
-    text-align: center;    
+    text-align: center;   
+    letter-spacing: .5px;
+    
 
     @include respond(sm) {
         display: flex;
