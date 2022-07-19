@@ -13,91 +13,268 @@
 
   }
 
-  .line-separator {
-    width:40%;
-    float:right;
-    margin-right:22rem;
-    /* margin:0 auto; */
-    color: $color-grey-darker;
-
-  }
 
 
-  .galery {
 
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    padding-top:1.8rem;
-    padding-bottom: 1.8rem;
-    gap:2.8rem;
+//   .galery {
 
-    justify-content:center;
-    align-content: center;
-    max-width: $width-galery;
-    margin:0 auto;
+//     display: grid;
+//     grid-template-columns: repeat(5,1fr);
+//     padding-top:1.8rem;
+//     padding-bottom: 1.8rem;
+//     gap:2.8rem;
+
+//     justify-content:center;
+//     align-content: center;
+//     max-width: $width-galery;
+//     margin:0 auto;
     
-        @include respond(big) {
-        gap: 2.8rem
-         }
+//         @include respond(big) {
+//         gap: 2.8rem
+//          }
 
-         @include respond(xl){
-          gap: 2.2rem;
-          max-width:120rem;
-           display: flex;
-           flex-wrap: wrap;
-           flex-direction: row;
-           margin:0 auto;
-         }
+//          @include respond(xl){
+//           gap: 2.2rem;
+//           max-width:120rem;
+//            display: flex;
+//            flex-wrap: wrap;
+//            flex-direction: row;
+//            margin:0 auto;
+//          }
 
-    &-name-padding {
-      padding-top: 1.6rem;
-      padding-bottom: 1.6rem;
-    }
+//     &-name-padding {
+//       padding-top: 1.6rem;
+//       padding-bottom: 1.6rem;
+//     }
   
     
-    &-item {
-      overflow: hidden;
-    }
+//     &-item {
+//       overflow: hidden;
+//     }
 
-    &-item img {
-    /* width: 100%; */
+//     &-item img {
+//     /* width: 100%; */
       
-    max-height: 20rem;
-    transition: all 0.4s;
+//     max-height: 20rem;
+//     transition: all 0.4s;
    
-    background-position: center;
-    box-shadow: rgba($color-galery-shadow,.4) 5px 5px, rgba($color-galery-shadow,.3) 10px 10px, rgba($color-galery-shadow,.2) 15px 15px, rgba($color-galery-shadow,.1) 20px 20px, rgba($color-galery-shadow,.005) 25px 25px;
-    object-fit: cover;
+//     background-position: center;
+//     box-shadow: rgba($color-galery-shadow,.4) 5px 5px, rgba($color-galery-shadow,.3) 10px 10px, rgba($color-galery-shadow,.2) 15px 15px, rgba($color-galery-shadow,.1) 20px 20px, rgba($color-galery-shadow,.005) 25px 25px;
+//     object-fit: cover;
 
-    @include respond(big) {
-      width:90%;
-      max-height: 19rem;
-       }
+//     @include respond(big) {
+//       width:90%;
+//       max-height: 19rem;
+//        }
       
 
   
-  }
+//   }
 
 
-    &-item img:hover,
-    &-irem img:active {
+//     &-item img:hover,
+//     &-irem img:active {
 
-      transform: scale(1.05);
-      filter: brightness(120%);
+//       transform: scale(1.05);
+//       filter: brightness(120%);
       
   
+// }
+
+//    
+//   }
+
+
+.galery-name {
+  font-size:$font-h2;
+  font-weight: 700;
+  max-width:130rem;
+
+  padding-bottom: 3.2rem;
+
+  margin:0 auto;
+  text-align: right;
+  color:$color-default-white;
+
 }
 
-    &-name {
-      font-size:$font-h2;
-      font-weight: 700;
-      max-width:130rem;
+//GALERY FROM NET
+* {
+  box-sizing: border-box;
+  position: relative;
+}
 
-      padding-bottom: 3.2rem;
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-      margin:0 auto;
-      text-align: right;
-      color:$color-default-white;
+img { 
+  max-width: 100%;
+  height: auto;
+  transform-origin: top left;
+}
 
+
+// #app {
+//   padding-bottom: 330%;
+// }
+
+.gallery {
+
+  /* https://tobiasahlin.com/blog/masonry-with-css/ */
+  display: flex;
+  // flex-flow: column wrap;
+  flex-flow:wrap;
+  justify-content: center;
+  align-content: space-between;
+  overflow: hidden;
+  gap:4rem;
+  
+  // height: 200vw; // Sized based on vw to expand properly
+
+
+  
+  .gallery-image {
+    width: 15%;
+    box-shadow: rgba($color-galery-shadow,.4) 5px 5px, rgba($color-galery-shadow,.3) 10px 10px, rgba($color-galery-shadow,.2) 15px 15px, rgba($color-galery-shadow,.1) 20px 20px, rgba($color-galery-shadow,.005) 25px 25px;
+    
+    
+    &[data-flipping] {
+      opacity: 1;
+      z-index: 3;
     }
   }
+
+
+  /* Re-order items into rows */
+  .gallery-image:nth-child(3n+1) { order: 1; }
+  .gallery-image:nth-child(3n+2) { order: 2; }
+  .gallery-image:nth-child(3n+3) { order: 3; }
+
+
+  /* Force new columns */
+  // &::before,
+  // &::after {
+  //   content: "";
+  //   flex-basis: 100%;
+  //   width: 0;
+  //   order: 2;
+  // }
+
+  //display: grid;
+  //grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery-image {
+  margin: 0;
+  display: block;
+  position: relative;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    text-shadow: 0 0 1px #000;
+    opacity: 0.8;
+    padding: 1em;
+    text-align: left;
+    transition: opacity .4s linear;
+    font-family: monospace;
+  }
+  
+  &:hover figcaption {
+    opacity: 1;
+  }
+}
+
+.detail {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(25,25,25,0);
+  box-shadow: 0 0 30px #000;
+  display: flex;
+  pointer-events: none;
+  transition: background .3s linear;
+
+  .gallery-image {
+    padding: 5vmin;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img { 
+      width: auto;
+      height: auto;
+      max-width: 100%; 
+      max-height: 100%; 
+    }
+    
+    figcaption { display: none; }
+    
+  }
+}
+
+[data-state="detail"] .detail {
+  // opacity: 1; 
+  background: rgba(25,25,25,.85);
+  pointer-events: auto;
+  .gallery-image { opacity: 1; }
+}
+
+[data-state="gallery"] .detail {
+  
+  .gallery-image {
+    opacity: 0;
+    transition: none;
+  }
+}
+
+/* ---------------------------------- */
+body {
+  background: black;
+}
+
+#app {
+  pointer-events: none;
+  
+  .gallery .gallery-image {
+    pointer-events: auto;
+  }
+}
+
+
+.gallery-image {
+  transition: opacity .5s linear;
+  border:solid 2px #FFB224;
+}
+
+#app:hover .gallery {
+  .gallery-image { opacity: 0.3; }
+  
+  .gallery-image[data-flipping],
+  .gallery-image:hover { 
+    opacity: 1;
+    transition-duration: all .2s;
+    cursor:zoom-in;
+    
+  }
+}
+

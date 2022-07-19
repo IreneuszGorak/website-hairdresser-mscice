@@ -14,7 +14,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@400;700&family=Nunito+Sans:ital,wght@0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,900;1,600;1,700&family=Roboto:wght@500&display=swap" rel="stylesheet"> 
 
-<link rel="stylesheet" href="css/style.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/grid-gallery.min.css"/>
+  <link rel="stylesheet" href="css/style.css" type="text/css" rel="stylesheet">
 
 
 </head>
@@ -137,7 +138,7 @@
   </section>
 
 
-  
+
     <section class="section-call">
       <div class="section-call-grid-container">
           <div class="section-call-header">
@@ -172,54 +173,84 @@
         <div class="line-separator galery-separator"></div> 
         
       </div>
+      </div>
 
-    <div class="galery">
-      <figure class="galery-item">
-        <img src="img/galery/image_1.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_2.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_3.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_4.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_5.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_6.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_7.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_8.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_9.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_10.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_11.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_12.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_13.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_14.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-      <figure class="galery-item">
-        <img src="img/galery/image_15.jpg" alt="Zdjęcie ładnie obciętej / uczesanej kobiety - galeria z firmowego facebooka">
-      </figure>
-    </div>
+
+
+<div id="app" data-state="gallery">
+  <div class="gallery">
+    <!--
+figure.gallery-image*30>img[src="https://source.unsplash.com/collection/2022043/700x900/?=$$"]+figcaption -->
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_1.jpg" width="200" height="200" />
+  
+    </figure>
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_2.jpg"  width="200" height="200" />
+
+    </figure>
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_3.jpg"  width="200" height="200" />
+ 
+    </figure>
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_4.jpg"  width="200" height="200" />
+  
+    </figure>
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_5.jpg" width="200" height="200" />
+
+    </figure>
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_6.jpg"  width="800" height="600" />
+ 
+    </figure>
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_7.jpg"  width="800" height="700" />
+   
+    </figure>
+
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_8.jpg" width="800" height="800" />
+
+    </figure>
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_9.jpg" width="800" height="600" />
+   
+    </figure>
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_10.jpg" />
+
+    </figure>
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_11.jpg"  width="800" height="900" />
+
+    </figure>
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_12.jpg"  width="800" height="600" />
+  
+    </figure>
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_13.jpg" width="800" height="600" />
+   
+    </figure>
+    <figure class="gallery-image image-border">
+      <img src="img/galery/image_14.jpg" width="800" height="900" />
+  
+    </figure>
+    <figure class="gallery-image">
+      <img src="img/galery/image_15.jpg" width="800" height="900" />
+  
+    </figure>
+
+  </div>
+  <div class="detail">
+    <!--   cloned figure/image goes here!   -->
+  </div>
+</div>
+
+
+
    
   </section>
   
@@ -346,6 +377,11 @@
 
   <section class="section-footer"></section>
 
+
+
+
+
+<script type="text/javascript" src="js/grid-gallery.js"></script>
 </body>
 
 </html>
