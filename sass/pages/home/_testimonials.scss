@@ -6,7 +6,7 @@
     
       
       background-color:$color-background-one;
-      padding-bottom: 9.6rem;
+      padding-bottom: 18rem;
       padding-top: 14rem;
    
       margin:0 auto;
@@ -32,6 +32,17 @@
       border: calc(1rem + 0.1vw) solid transparent;
       box-shadow: 0 0 3px 3px rgba($color-testimonials-shadow, .5);
       border-radius: 9px;
+
+      border-radius: 1rem;
+      background-color:  #242424;
+
+      //background-color: #E4AA3F;
+      transition: 0.4s all;
+
+        &:hover {
+          transform: scale(1.05);
+          transform: translateY(-0.5rem);
+        }
 
         @include respond(xl) {
           min-width: 30%;
@@ -65,6 +76,8 @@
         padding-right: 4rem;
         max-width: $width-header;
 
+
+
           @include respond(xl) {
             display: flex;
             flex-wrap: wrap;
@@ -82,8 +95,13 @@
 
 
     &-tag-facebook{
+
+
+    
       background-color: $color-testimonials-tag-facebook;
       color: $color-grey-darker;
+      //background-color: #fff;
+      color: #0e0f11;
       padding: 0.1rem;
       width:11rem;
       text-align: center;
@@ -94,13 +112,15 @@
       align-self: flex-start;
       text-transform: uppercase;
       font-size: $font-testimonials-tags;
-    
-    
+
     }
   
     &-tag-google {
       background-color: $color-testimonials-tag-google;
       color:$color-grey-darker;
+      background-color: #F6E3C1;
+      color: #0e0f11;
+
       padding: 0.1rem;
       width:11rem;
       text-align: center;
@@ -134,7 +154,7 @@
       padding-left:3rem;
       font-size: $font-text-p;
       line-height: 1.3;
-      color:$color-grey-middle;
+      color:#D1D1D1;
       align-self: flex-start;
       font-weight: bold;
 

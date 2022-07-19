@@ -4,8 +4,8 @@
   
     .section-call{
       background-color:$color-background-one;
-      padding-top: 12rem;
-      padding-bottom: 9.6rem;
+      padding-top: 3.2rem;
+      padding-bottom: 3.2rem;
       padding-left: 4rem;
       padding-right: 4rem;
 
@@ -16,14 +16,32 @@
   
       &-grid-container {
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap:2rem;
+        grid-template-columns: 6fr 2fr;
+        gap:0rem;
+
         justify-items: center;
         align-items: center;
-        min-height: 27rem;
+
+        justify-content: center;
+        align-content: center;
+        
+        min-height: 45rem;
+        
       
-        max-width: $width-sections;
+        max-width: $width-header;
+        // padding: 6.2rem;
         margin:0 auto;
+
+    
+        background-color: $color-default-black;
+        -webkit-box-shadow: 0px 0px 3px 1px rgba(34, 34, 34, 1);
+        -moz-box-shadow: 0px 0px 3px 1px rgba(34, 34, 34, 1);
+        box-shadow: 0px 0px 3px 1px rgba(34, 34, 34, 1);
+        
+   
+
+        border-radius: 5px;
+
 
         @include respond(sm) {
           grid-template-columns: 1fr;
@@ -55,22 +73,23 @@
       
       &-header-text {
         font-size: $font-cta-h2;
-        color:$color-default-white;
+        color:$color-cta-header;
         font-weight: bold;
+        padding-top: 3.2rem;
       }
       &-marketing-promo-text {
         font-size: $font-hero-text;
-        color: $color-grey-middle;
+        color: $color-default-white;
         font-weight: bold;
-        padding-top: 6.2rem;
-        padding-bottom: 4.6rem;
+        padding-top: 3.2rem;
+        padding-bottom: 6.6rem;
       }
   
   
       &-choose-text {
    
         font-size: $font-buttons;
-        color:$color-grey-middle;
+        color:$color-default-white;
     
         font-weight:700;
         padding-left: 1.6rem;
@@ -78,9 +97,9 @@
       }
       
         &-video-gif-cointainer {
-          text-align: center;
-          height: 100%;
-          width: 100%;
+          text-align: left;
+          height: 135%;
+          width: 135%;
 
           @include respond(sm) {
             width: 50vw;
@@ -92,6 +111,7 @@
       
         &-img {
           height: 100%;
+
 
             @include respond(sm) {
               width: 80%;
@@ -109,8 +129,8 @@
         &-facebook-messenger:link,
         &-facebook-messenger:visited
         {
-          background-color:$color-primary-orange;
-          color: $color-default-black;
+          background-color:#666;
+          color: whitesmoke;
           font-size: $font-buttons;
           font-weight:700;
           padding: 1.2rem 2.4rem;

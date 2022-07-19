@@ -1,10 +1,10 @@
 /* COLORS */
 $color-background-one: #191419;
 $color-background-two: #171217;
-$color-primary-orange: #fea400; 
+$color-primary-orange: #FFB224; 
 
 
-$color-primary-orange-darker: #b27300;
+$color-primary-orange-darker: #E4AA3F;
 
 $color-default-white: #f0eeeb;
 $color-white-brighter: #e9ecef;
@@ -12,15 +12,41 @@ $color-white-brighter: #e9ecef;
 $color-black:#000;
 $color-default-black: #222;
 
-$color-grey-middle: #555;
-$color-grey-brighter:#999;
+$color-grey-middle: #A2A2A2;
+$color-grey-brighter:#C2C2C2;
 $color-grey-darker:#333;
 
-$color-testimonials-tag-facebook: #ffd43b;
-$color-testimonials-tag-google: #c0eb75;
+$color-cta-header: #F6E3C1;
 
-$color-galery-shadow: #fea40066;
+$color-testimonials-tag-facebook: #EECC8B;
+$color-testimonials-tag-google: #e9ecef;
+
+$color-galery-shadow: #FFB224;
 $color-testimonials-shadow: #070707;
+
+// orginal
+// $color-background-one: #191419;
+// $color-background-two: #171217;
+// $color-primary-orange: #fea400; 
+
+
+// $color-primary-orange-darker: #b27300;
+
+// $color-default-white: #f0eeeb;
+// $color-white-brighter: #e9ecef;
+
+// $color-black:#000;
+// $color-default-black: #222;
+
+// $color-grey-middle: #555;
+// $color-grey-brighter:#999;
+// $color-grey-darker:#333;
+
+// $color-testimonials-tag-facebook: #ffd43b;
+// $color-testimonials-tag-google: #c0eb75;
+
+// $color-galery-shadow: #fea40066;
+// $color-testimonials-shadow: #070707;
 
 /*GRID*/
 $width-header:140rem;
