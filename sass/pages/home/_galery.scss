@@ -13,90 +13,36 @@
 
   }
 
+  .galery-name {
+      font-size:$font-h2;
+      font-weight: 700;
 
 
+      padding-bottom: 3.2rem;
+      padding-left: 10vw;
 
-//   .galery {
+      margin:0 auto;
+      text-align: left;
+      color:$color-default-white;
+   }
 
-//     display: grid;
-//     grid-template-columns: repeat(5,1fr);
-//     padding-top:1.8rem;
-//     padding-bottom: 1.8rem;
-//     gap:2.8rem;
-
-//     justify-content:center;
-//     align-content: center;
-//     max-width: $width-galery;
-//     margin:0 auto;
-    
-//         @include respond(big) {
-//         gap: 2.8rem
-//          }
-
-//          @include respond(xl){
-//           gap: 2.2rem;
-//           max-width:120rem;
-//            display: flex;
-//            flex-wrap: wrap;
-//            flex-direction: row;
-//            margin:0 auto;
-//          }
-
-//     &-name-padding {
-//       padding-top: 1.6rem;
-//       padding-bottom: 1.6rem;
-//     }
-  
-    
-//     &-item {
-//       overflow: hidden;
-//     }
-
-//     &-item img {
-//     /* width: 100%; */
-      
-//     max-height: 20rem;
-//     transition: all 0.4s;
-   
-//     background-position: center;
-//     box-shadow: rgba($color-galery-shadow,.4) 5px 5px, rgba($color-galery-shadow,.3) 10px 10px, rgba($color-galery-shadow,.2) 15px 15px, rgba($color-galery-shadow,.1) 20px 20px, rgba($color-galery-shadow,.005) 25px 25px;
-//     object-fit: cover;
-
-//     @include respond(big) {
-//       width:90%;
-//       max-height: 19rem;
-//        }
-      
-
-  
-//   }
-
-
-//     &-item img:hover,
-//     &-irem img:active {
-
-//       transform: scale(1.05);
-//       filter: brightness(120%);
-      
-  
-// }
-
-//    
-//   }
-
-
-.galery-name {
-  font-size:$font-h2;
-  font-weight: 700;
-  max-width:130rem;
-
+.galery-instruction {
+  display: inline-block;
+  font-size:$font-menu;
+  font-weight: 400;
   padding-bottom: 3.2rem;
+  padding-left: 11vw;
+ 
 
   margin:0 auto;
   text-align: right;
   color:$color-default-white;
 
+  color: orange;
+  letter-spacing: 1.5px;
+
 }
+
 
 //GALERY FROM NET
 * {
@@ -124,9 +70,7 @@ img {
 
 .gallery {
 
-  /* https://tobiasahlin.com/blog/masonry-with-css/ */
   display: flex;
-  // flex-flow: column wrap;
   flex-flow:wrap;
   justify-content: center;
   align-content: space-between;
@@ -154,18 +98,6 @@ img {
   .gallery-image:nth-child(3n+2) { order: 2; }
   .gallery-image:nth-child(3n+3) { order: 3; }
 
-
-  /* Force new columns */
-  // &::before,
-  // &::after {
-  //   content: "";
-  //   flex-basis: 100%;
-  //   width: 0;
-  //   order: 2;
-  // }
-
-  //display: grid;
-  //grid-template-columns: 1fr 1fr 1fr;
 }
 
 .gallery-image {
