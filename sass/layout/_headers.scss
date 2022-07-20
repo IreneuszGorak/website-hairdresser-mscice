@@ -1,52 +1,51 @@
 
-.phone-call {
-  &:link,
-  &:visited,
-  &:hover,
-  &:active {
-    text-decoration: none;
-    color:$color-default-white;
-
-    @include respond(big) {
-      font-size: $font-menu-phone;
-    }
-
-  }
-
-
-}
-
-
-.header-container {
-  background-color: $color-background-one;
-  
-
- } 
  
  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap:3.2rem;
-
-    margin:0 auto;
-    max-width: 200rem;
-  
-    height: 9.6rem;
-    padding: 0 20rem;
-
+  background-color: $color-background-one;
     
+
      
      @include respond(xl) {
       padding:0 4rem;
      }
 
+  &-container {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:3.2rem;
+
+  margin:0 auto;
+  max-width: 200rem;
+
+  height: 9.6rem;
+  padding: 0 20rem;
+
+
+
     &-name {
       font-size: 2.2rem;
       color:$color-default-white;
       
-    }
 
+
+    
+            &__phone-call{
+              &:link,
+              &:visited,
+              &:hover,
+              &:active {
+                text-decoration: none;
+                color:$color-default-white;
+
+                @include respond(big) {
+                  font-size: $font-menu-phone;
+                }
+              }
+            }
+  }
+} 
     &-phone-icon {
       height: 2.8rem;
       vertical-align: middle;
