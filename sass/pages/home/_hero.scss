@@ -27,8 +27,9 @@
     background-color: $color-background-one;
     /* padding:2.4rem; */
     padding-left:4rem;
+    padding-right: 4rem;
     padding-bottom: 9.6rem;
-    padding-top: 6.4rem;
+    padding-top: 12rem;
       
     @include respond(sm) {
       padding-bottom: 3.2rem;
@@ -73,6 +74,7 @@
       opacity:0.8;
       border-radius: 15px;
 
+
         @include respond(sm) {
           display: block;
           margin:0 auto;
@@ -80,9 +82,11 @@
     }
 
         &-container {
+      
 
           @include respond(sm) {
             padding-top: 8.2rem;
+   
           }
         }
   
