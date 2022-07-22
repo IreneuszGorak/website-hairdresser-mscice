@@ -12,7 +12,10 @@
 
 @mixin respond($breakpoint) {
 
-    @if $breakpoint == xs {
+  @if $breakpoint == sxs {
+    @media (max-width:24em) { @content; }
+  }
+  @if $breakpoint == xs {
       @media (max-width: 36em) { @content; }
     }
 

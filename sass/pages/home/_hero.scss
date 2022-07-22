@@ -8,11 +8,18 @@
 
     max-width: $width-header;
     display: grid;
-    gap:6.4rem;
     grid-template-columns: 1fr 1fr;
     align-items:center;
     margin:0 auto;
     min-height: 45vh;
+    padding-top: 6rem;
+
+
+    @include respond(xl) {
+      padding-top:3.2rem;
+      min-height: 30vh;
+    }
+  
     
       @include respond(sm) {
         display: flex;
@@ -20,8 +27,17 @@
         justify-content: center;
         align-items: center;
         gap:5.2rem;
+        padding-bottom: 3.2rem;
+        padding-bottom: 2rem;
       }
  
+
+  
+      @include respond(sxs) {
+        padding-top:3.2rem;
+    
+      }
+    
     
     &-section {
     background-color: $color-background-one;
@@ -29,12 +45,14 @@
     padding-left:4rem;
     padding-right: 4rem;
     padding-bottom: 9.6rem;
-    padding-top: 12rem;
-      
-    @include respond(sm) {
-      padding-bottom: 3.2rem;
-    }
-  
+    padding-top: 10rem;
+    
+
+      @include respond(sm) {
+     
+        padding-bottom: 0rem;
+      }
+
   }
 
     
@@ -52,6 +70,10 @@
       @include respond(sm) {
         margin-bottom: 2.4rem;
       }
+
+      @include respond(sxs) {
+        line-height: 1.3;
+      }
     }
 
     &-primary {
@@ -60,8 +82,13 @@
       line-height:1.05;
       color:$color-default-white;
       /* padding-left:8rem; */
-      margin-bottom: 6.4rem;
+      margin-bottom: 4.4rem;
       letter-spacing:-0.5px;
+
+      @include respond(xl) {
+        margin-bottom: 3.2rem;
+      }
+
       
       @include respond(sm) {
         margin-bottom: 1.8rem;
@@ -74,23 +101,34 @@
       opacity:0.8;
       border-radius: 15px;
 
+      @include respond(xl) {
+
+        margin-top: 3.2rem;
+  
+      }
 
         @include respond(sm) {
           display: block;
           margin:0 auto;
         }
-    }
+
 
         &-container {
       
-
-          @include respond(sm) {
-            padding-top: 8.2rem;
+          @include respond(xl) {
+            margin-top:3.2rem;
    
           }
+
+          @include respond(sxs) {
+            margin-top:0;
+   
+          }
+
+
         }
   
-
+      }
 
 }
 

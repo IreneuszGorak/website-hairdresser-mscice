@@ -11,6 +11,18 @@
     padding-right: 4rem;
 
 
+    
+    @include respond(sm) {
+      padding-top: 6.2rem;
+      padding-bottom: 6.2rem;
+    }
+
+      @include respond(sxs) {
+        padding-top: 3.2rem;
+        padding-bottom: 6.2rem;
+      }
+
+
   }
 
   .galery-name {
@@ -41,6 +53,11 @@
   color: orange;
   letter-spacing: 1.5px;
 
+
+    @include respond (sm) {
+      text-align:left;
+    }
+     
 }
 
 
@@ -84,6 +101,26 @@ img {
   .gallery-image {
     width: 15%;
     box-shadow: rgba($color-galery-shadow,.4) 5px 5px, rgba($color-galery-shadow,.3) 10px 10px, rgba($color-galery-shadow,.2) 15px 15px, rgba($color-galery-shadow,.1) 20px 20px, rgba($color-galery-shadow,.005) 25px 25px;
+    
+      @include respond (xl) {
+
+        width: 20%;
+      }
+
+      @include respond (lg) {
+
+        width: 25%;
+      }
+      @include respond (sm) {
+
+        width: 40%;
+      }
+      @include respond (xs) {
+
+        width: 80%;
+      }
+    
+    
     
     
     &[data-flipping] {

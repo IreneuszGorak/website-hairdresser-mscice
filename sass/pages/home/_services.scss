@@ -18,6 +18,10 @@
       padding-top: 0; 
     }
 
+    @include respond(sxs) {
+      padding-bottom: 2rem; 
+    }
+
     &-line-separator {
       line-height: 1.5;
       background-color: $color-grey-middle;
@@ -68,8 +72,14 @@
         display: flex;
         justify-items: center;
         align-items: center;
-        padding-left: 6.2rem;
-        padding-right: 6.2rem;
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+
+      }
+      @include respond(sxs) {
+
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
       }
     }
   
@@ -78,6 +88,8 @@
     padding-top: 6.4rem;
     width:85%;
     opacity:0.8;
+
+
  
 
   @include respond(xl) {
@@ -86,9 +98,23 @@
     margin:0 auto;
   }
 
-  @include respond(sm) {
-    width: 40%;
+  @include respond(lg) {
+
+    // max-height: 30vh;
+ 
   }
+
+  @include respond(sm) {
+    width: auto;
+    min-height: 35vh;
+    max-height: 35vh;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
+  }
+
+
+
 }
   
 
@@ -97,16 +123,48 @@
     .cointainer {
       max-width: 115rem;
     }
+
+    
+  @include respond(sm) {
+    .cointainer {
+      max-width: 100%;
+    }
+  }
+  
   
     .order-three {
       grid-row:1;
       grid-column: 2;
+
+      @include respond (sm) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      @include respond(sxs) {
+
+        flex-wrap: wrap;
+        gap:0;
+        
+    
+      }
     }
 
 
     .order-four {
       grid-row:3;
       grid-column: 1;
+
+      @include respond(sxs) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: rows;
+        flex-wrap: wrap;
+        gap:0;
+
+      }
     }
 
   }
