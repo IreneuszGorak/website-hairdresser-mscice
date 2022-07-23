@@ -13,3 +13,28 @@ linkSelected.forEach((n) =>
     navMenu.classList.remove('active');
   })
 );
+
+//////////////////////////
+// Smooth scrolling animation
+
+const allLinks = document.querySelectorAll('a:link');
+
+allLinks.forEach((link) =>
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const href = link.getAttribute('href');
+
+    //scroll back to top
+    if (href === '#')
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+
+    //scroll
+    if (href !== '#' && href.startsWith('#')) {
+      const sectionEl = document.querySelector(href);
+      sectionEl.scrollIntoView({ behavior: 'smooth' });
+    }
+  })
+);

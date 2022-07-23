@@ -19,6 +19,7 @@
   */
   font-size: 62.5%;
   max-width: 100vw;
+  scroll-behavior: smooth;
  
   }
   
@@ -28,4 +29,5 @@
     box-sizing: border-box;
     color:$color-grey-middle;
     max-width: 100%;
+  
   }

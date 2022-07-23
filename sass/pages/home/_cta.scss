@@ -184,10 +184,10 @@
         &-facebook-messenger:link,
         &-facebook-messenger:visited
         {
-          background-color:#666;
-          color: whitesmoke;
+          background-color:$color-primary-orange;
+          color: $color-black;
           font-size: $font-buttons;
-          font-weight:700;
+          font-weight:500;
           padding: 1.2rem 2.4rem;
           text-decoration:none;
           text-transform: uppercase;
