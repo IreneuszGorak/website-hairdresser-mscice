@@ -105,16 +105,26 @@
   }
 
   @include respond(sm) {
+    max-height:fit-content;
+    min-height: fit-content;
     width: auto;
-    min-height: 35vh;
-    max-height: 35vh;
+    height: 28rem;
+    object-fit: cover;
+    object-position: bottom;
     padding-left: 4rem;
     padding-right: 4rem;
     padding-top: 4rem;
   }
 
 
-
+  @include respond(vertmode) {
+    max-height:fit-content;
+    min-height: fit-content;
+    width: auto;
+    height: 28rem;
+    object-fit: cover;
+    object-position: bottom;
+  }
 }
   
 
@@ -129,8 +139,9 @@
     .cointainer {
       max-width: 100%;
     }
+
   }
-  
+
   
     .order-three {
       grid-row:1;

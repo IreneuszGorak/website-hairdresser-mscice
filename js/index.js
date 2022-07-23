@@ -6,11 +6,10 @@ hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
 });
 
-document.querySelectorAll(
-  '.nav-lin'.foreach((n) =>
-    n.addEventListener('click', () => {
-      hamburger.classList.remove('active');
-      navMenu.classList.remove('active');
-    })
-  )
+const linkSelected = document.querySelectorAll('.header-main-nav-link');
+linkSelected.forEach((n) =>
+  n.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+  })
 );
