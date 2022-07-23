@@ -3,11 +3,12 @@
     /* ****************************************************************/
   
     .section-call{
-      background-color:$color-background-one;
-      padding-top: 3.2rem;
-      padding-bottom: 3.2rem;
+      background-color:$color-background-two;
+      padding-top: 6.2rem;
+      padding-bottom: 6.2rem;
       padding-left: 4rem;
       padding-right: 4rem;
+      scroll-margin-top: 9rem;
 
           @include respond(sm) {
             padding-bottom: 2rem;

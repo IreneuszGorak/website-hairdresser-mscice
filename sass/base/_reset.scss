@@ -8,7 +8,7 @@
   box-sizing: inherit;
   }
   
-  html,body{
+  body{
     overflow-x: hidden;
   }
 
@@ -19,7 +19,9 @@
   */
   font-size: 62.5%;
   max-width: 100vw;
-  scroll-behavior: smooth;
+
+  //improved by js
+  //scroll-behavior: smooth;
  
   }
   
