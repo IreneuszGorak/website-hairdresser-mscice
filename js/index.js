@@ -29,7 +29,7 @@ linkSelected.forEach((n) =>
 //////////////////////////
 // Smooth scrolling animation
 
-const allLinks = document.querySelectorAll('a:link');
+const allLinks = document.querySelectorAll('.header-main-nav-link');
 
 allLinks.forEach((link) =>
   link.addEventListener('click', (e) => {

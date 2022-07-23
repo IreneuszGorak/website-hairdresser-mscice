@@ -28,10 +28,12 @@
     @include respond(xl) {
       grid-template-columns: repeat(2,1fr);
       gap:2rem;
+
     }
     @include respond(sm) {
       grid-template-columns: minmax(0,1fr);
       gap:2rem;
+ 
     }
 
     

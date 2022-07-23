@@ -11,7 +11,7 @@
     color:$color-default-white;
 
     @include respond(xl) {
-      padding-top: 0;
+      padding-top: 2rem;
     }
 
     @include respond(sm) {
@@ -67,6 +67,9 @@
     text-align: center;   
     letter-spacing: .5px;
     
+    @include respond(xl) {
+      padding-top: 2rem;
+    }
 
     @include respond(sm) {
         display: flex;
@@ -74,12 +77,35 @@
         align-items: center;
         padding-left: 3.2rem;
         padding-right: 3.2rem;
+        
 
       }
       @include respond(sxs) {
 
         padding-left: 1.2rem;
         padding-right: 1.2rem;
+      }
+
+      &--img-container{
+        width:100%;
+        margin:0 auto;
+
+        @include respond(xl) {
+          width:50%;
+        }
+
+        @include respond(lg) {
+          width: 60%;
+        }
+
+        @include respond(sm) {
+          width: 40%;
+        }
+
+        @include respond(sxs) {
+          width:70%;
+          // max-height:10rem;
+        }
       }
     }
   
@@ -89,42 +115,11 @@
     width:85%;
     opacity:0.8;
 
+      @include respond(sm) {
+        padding-top: 3.2rem;
+      }
 
  
-
-  @include respond(xl) {
-    display:block;
-    width:24rem;
-    margin:0 auto;
-  }
-
-  @include respond(lg) {
-
-    // max-height: 30vh;
- 
-  }
-
-  @include respond(sm) {
-    max-height:fit-content;
-    min-height: fit-content;
-    width: auto;
-    height: 28rem;
-    object-fit: cover;
-    object-position: bottom;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 4rem;
-  }
-
-
-  @include respond(vertmode) {
-    max-height:fit-content;
-    min-height: fit-content;
-    width: auto;
-    height: 28rem;
-    object-fit: cover;
-    object-position: bottom;
-  }
 }
   
 
@@ -146,11 +141,13 @@
     .order-three {
       grid-row:1;
       grid-column: 2;
+   
 
       @include respond (sm) {
         display: flex;
         justify-content: center;
         align-items: center;
+      
       }
 
       @include respond(sxs) {
@@ -183,7 +180,7 @@
     @include respond(sm) {
       .cointainer {
         padding-left: 3.2rem;
-       padding-right: 3.2rem;
+        padding-right: 3.2rem;
       }
     
           .order-three {
