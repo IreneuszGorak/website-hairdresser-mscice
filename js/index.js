@@ -9,16 +9,20 @@ hamburger.addEventListener('click', () => {
 const ctaSelected = document.querySelectorAll('.header-main-nav-link_nav-cta');
 ctaSelected.forEach((n) =>
   n.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    navMenu.classList.remove('active');
+    setTimeout(function () {
+      hamburger.classList.remove('active');
+      navMenu.classList.remove('active');
+    }, 200);
   })
 );
 
 const linkSelected = document.querySelectorAll('.header-main-nav-link');
 linkSelected.forEach((n) =>
   n.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    navMenu.classList.remove('active');
+    setTimeout(function () {
+      hamburger.classList.remove('active');
+      navMenu.classList.remove('active');
+    }, 200);
   })
 );
 
