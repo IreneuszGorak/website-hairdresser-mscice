@@ -94,8 +94,6 @@ img {
   overflow: hidden;
   gap:4rem;
   
-  // height: 200vw; // Sized based on vw to expand properly
-
 
   
   .gallery-image {
@@ -236,7 +234,7 @@ body {
 }
 
 #app:hover .gallery {
-  .gallery-image { opacity: 0.3; }
+  .gallery-image { opacity: 0.4; }
   
   .gallery-image[data-flipping],
   .gallery-image:hover { 

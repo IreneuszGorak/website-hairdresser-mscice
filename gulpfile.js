@@ -10,7 +10,7 @@ gulp.task('sass', () => {
     .src('./sass/main.scss')
     .pipe(rename('style.css'))
     .pipe(sourcemaps.init())
-    .pipe(sass({ outputStyle: 'expanded' }))
+    .pipe(sass({ outputStyle: 'compressed' }))
     .pipe(postcss([autoprefixer()]))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./css/'));

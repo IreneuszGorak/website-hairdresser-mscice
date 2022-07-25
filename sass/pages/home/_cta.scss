@@ -114,6 +114,8 @@
         font-weight: bold;
         padding-top: 3.2rem;
         padding-bottom: 6.6rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
 
         @include respond(lg) {
           padding-top: 1.8rem;
