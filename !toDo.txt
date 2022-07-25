@@ -1,9 +1,5 @@
 Na mobilce wyłączyć wygaszanie galerii
-google meta tags
-sprawdzić lighthouse - opis mapy google
 na mobilce przewijania na cta nieprawidłowe
-cta padding na mobilce do tekstu klientek! dodac
 refaktoryzacja kodu
 dodanie readme na git
-usuniecie zbednych plikow
-optymalizacja ładowania - w tym kompresja grafik
+optymalizacja ładowania grafik mobile gif
