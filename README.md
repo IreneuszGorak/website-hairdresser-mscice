@@ -2,7 +2,7 @@
 
 My first commercial project. Simple one-page website. Made for a hairdressing salon that did not have one before.
 
-A project where he first used such technologies and I learned them:
+A project where I.m first used technologies:
 1. Saas - Scss - 7-1
 2. Bem
 3. Html
