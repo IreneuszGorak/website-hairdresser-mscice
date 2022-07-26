@@ -9,15 +9,10 @@
       padding-left: 4rem;
       padding-right: 4rem;
 
-   
-
-
        
       &-container {
         max-width: 120rem;
         margin:0 auto;
-      
-     
       }
     
       &-header {
@@ -45,7 +40,6 @@
        
 
           @include respond(sm) {
-       
             text-align: center;
           }
       }
@@ -98,12 +92,9 @@
      
       @include respond(lg) {
         width: 80vw;
-     
       }
 
       @include respond(xl) {
-   
-
       }
 
  

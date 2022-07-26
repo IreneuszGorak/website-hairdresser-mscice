@@ -1,5 +1,0 @@
-Na mobilce wyłączyć wygaszanie galerii
-na mobilce przewijania na cta nieprawidłowe
-refaktoryzacja kodu
-dodanie readme na git
-optymalizacja ładowania grafik mobile gif
