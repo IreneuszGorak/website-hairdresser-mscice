@@ -1,6 +1,7 @@
 # website-hairdresser-mscice
 
 My first commercial project. Simple one-page website. Made for a hairdressing salon that did not have one before.
+Design created independently on the basis of own knowledge and the dependence of choosing colors, font styles, contrast, etc.
 
 A project where I.m first used technologies:
 1. Saas - Scss - 7-1
