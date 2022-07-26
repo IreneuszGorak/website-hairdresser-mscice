@@ -11,7 +11,7 @@ A project where I.m first used technologies:
 6. JS - very simple scripts
 7. Git
 8. Gulp along with sourucemaps
-9. Wep format image
+9. Webp format image
 10. Google lightohouse
 11. Seo basics (metatags, title etc)
 
